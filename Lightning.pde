@@ -11,3 +11,4 @@ void mousePressed()
 
 }
 
+double mouseX = MouseInfo.getPointerInfo().getLocation().getX();

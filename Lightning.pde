@@ -35,12 +35,12 @@ void draw()
     b3 = 161;
     for (int w = 13; w >= 3; w = w - 2){
       strokeWeight(w);
-      stroke(r1, g1, 255);
-      line(startX, startY, endX, endY);
-      stroke(r2, r2, b2);
-      line(start2X, start2Y, end2X, end2Y);
       stroke(255, g3, b3);
       line(start3X, start3Y, end3X, end3Y);
+      stroke(r2, r2, b2);
+      line(start2X, start2Y, end2X, end2Y);
+      stroke(r1, g1, 255);
+      line(startX, startY, endX, endY);
       r1 = r1 - 12.3;
       g1 = g1 + 25;
       r2 = r2 - 1.7;

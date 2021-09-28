@@ -71,3 +71,7 @@ void keyPressed()
  start3Y = 0;
  end3Y = 0;
 }
+void mousePressed()
+{
+ background(166, 200, 255);
+}
